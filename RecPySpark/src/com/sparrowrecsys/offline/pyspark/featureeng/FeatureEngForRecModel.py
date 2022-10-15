@@ -1,3 +1,7 @@
+"""
+1. read raw data: rating.csv, movie.csv
+2. combine and save it to train & test data
+"""
 from pyspark import SparkContext, SparkConf
 from pyspark.sql import SparkSession
 import pyspark.sql as sql

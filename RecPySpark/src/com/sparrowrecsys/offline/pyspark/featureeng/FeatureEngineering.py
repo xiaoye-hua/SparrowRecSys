@@ -1,3 +1,6 @@
+"""
+Feature engineering example; no result is saved
+"""
 from pyspark import SparkConf
 from pyspark.ml import Pipeline
 from pyspark.ml.feature import OneHotEncoderEstimator, StringIndexer, QuantileDiscretizer, MinMaxScaler

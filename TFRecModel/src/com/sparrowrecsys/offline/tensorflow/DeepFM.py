@@ -1,4 +1,6 @@
 import tensorflow as tf
+import os
+
 
 # Training samples path, change to your local path
 training_samples_file_path = tf.keras.utils.get_file("trainingSamples.csv",
